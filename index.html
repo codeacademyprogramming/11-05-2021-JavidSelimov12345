@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="" id="login">
+      <div class="container">
+        <div class="login_input" id="loginput">
+          <input
+            class="form-control"
+            id="Username_input"
+            type="text"
+            name="login"
+            placeholder="john"
+          />
+          <input
+            class="form-control"
+            id="Userpassword_input"
+            type="password"
+            name="password"
+            placeholder="12345"
+          />
+          <button class="btn btn-info" id="btn_login_submit">Login</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="mainContainer">
+      <nav id="nav">
+        <div>
+          <button class="btn btn-dark" id="dark">Dark</button>
+          <button class="btn btn-success" id="light">Light</button>
+        </div>
+        <div id="tools">
+          <button class="btn btn-link" id="az">Az</button>
+          <button class="btn btn-link" id="en">En</button>
+        </div>
+      </nav>
+
+      <div class="titles">
+        <h1 class="title" id="title">Customers</h1>
+      </div>
+
+      <div id="modal"></div>
+
+      <div id="app"></div>
+    </div>
+
+    <script src="api.js"></script>
+  </body>
+</html>
