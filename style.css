@@ -1,0 +1,88 @@
+.error{
+  color:rgb(255, 255, 255);
+  font-size:2rem;
+}
+.form-control{
+  margin:5px;
+}
+.login_input{
+  
+  width:50%;
+  margin: auto;
+  height: 100px;
+
+}
+#login{
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-color: #827f7f;
+ width: 100%;
+ height: 100vh;
+ text-align: center;
+ display: flex;
+ justify-content: baseline;
+}
+#mainContainer{
+  display: none;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+.but {
+  margin: 3px;
+}
+nav {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tools {
+  display: flex;
+  justify-content: space-between;
+}
+.mato {
+  background-color: rgb(218, 195, 195);
+  text-align: center;
+  color: white;
+  box-shadow: 5px 5px 15px 5px #827f7f, -9px 5px 15px 5px #fafafa,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  margin: 10px;
+  border: 1px solid black;
+  transition: all 0.5s ease-in-out;
+}
+.mato:hover {
+  background-color: rgb(213, 213, 213);
+}
+#modal {
+  background-color: rgba(121, 133, 133, 0.982);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+.cont {
+  padding: 10px;
+  background-color: antiquewhite;
+  color: black;
+  border: 1px solid black;
+  margin: 10px;
+  width: 50%;
+  margin-left: calc((100%-10px) / 4);
+  margin-right: calc((100%-10px) / 4);
+}
+.titles {
+  text-align: center;
+}
